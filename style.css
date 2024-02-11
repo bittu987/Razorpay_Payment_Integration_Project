@@ -85,7 +85,8 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color:rgb(90, 220, 220);
+    /* background-color:rgb(90, 220, 220); */
+    background: linear-gradient(90deg, rgba(130,86,123,1) 27%, rgba(240,116,92,0.782125350140056) 99%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
 }
@@ -121,14 +122,16 @@ iframe{
 .Form h2{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: chocolate;
+    color:chartreuse;
+    text-decoration: underline;
+    
 }
 
 .Form label{
     font-size: 20px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:darkmagenta;   
+    color:black
 }
 .Form input{
     border: 2px solid rgb(112, 112, 96);
