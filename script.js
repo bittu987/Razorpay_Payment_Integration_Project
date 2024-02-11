@@ -84,7 +84,7 @@ const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
     let rzp1 = new Razorpay(options);
     rzp1.open();
   }
-   nameofdonar = "";
-   amountInRupee = "";
+   nameofdonar = " ";
+   amountInRupee = " ";
 
   }

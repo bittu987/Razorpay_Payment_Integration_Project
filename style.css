@@ -194,15 +194,16 @@ iframe{
     }
     .vidio iframe{
         margin-left: -20px;
-        width: 200px;
+        margin-bottom: 200px;
+        width: 340px;
         height: 200px;
     }
     .Form{
         padding: 2px;
         height: 250px;
         width: 220px;
-        left: 50%;
-        bottom: 40px;
+        left: 40%;
+        bottom: 200px;
     }
     .Form h2{
         text-align: center;
