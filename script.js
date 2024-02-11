@@ -1,6 +1,7 @@
   const btnToPay = document.getElementById("btn");
 // const para =document.getElementById("para") 
-const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
+const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
+// const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
 
   
   btnToPay.onclick = function () {
