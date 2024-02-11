@@ -90,6 +90,8 @@ header{
     overflow: hidden;
 }
 .second_Section{
+    width: auto;
+    overflow: hidden;
     height: max-content;
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +138,11 @@ iframe{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }  
 
+.vidio iframe{
+    width: 600px;
+    height: 340px;
+}
+
 #btn{
     padding: 10px 18px 10px 18px;
     border-radius: 5px;
@@ -144,4 +151,71 @@ iframe{
     color: white;
     font-weight: bold;
     border: none;
+}
+
+@media only screen and (max-width: 450px) {
+   
+    .logo img{
+        width: 40px;
+        height: 40px;
+        animation: logo 5s ease-in-out 0.5s infinite;
+    }
+    @keyframes logo{
+        from{
+            width: 40px;
+            height: 40px;
+        }
+        to{
+            width: 53px;
+            height: 53px;
+        }
+    }
+    header{
+        padding: 20px;
+    }
+    .center_header{
+        font-size: 27px;
+        padding: 10px;
+        /* color: rgb(52, 63, 126); */
+    }
+    .hover{
+        font-size: 22px;
+        font-style: italic;
+        animation: ABC 5s ease-in-out 0.5s infinite;
+    }
+    @keyframes ABC{
+        0%   {color:  red;}
+      25%  {color: yellow;}
+      50%  {color: blue;}
+      100% {color: green;}
+    }
+    .vidio iframe{
+        margin-left: -20px;
+        width: 200px;
+        height: 200px;
+    }
+    .Form{
+        padding: 2px;
+        height: 250px;
+        width: 220px;
+        left: 50%;
+        bottom: 40px;
+    }
+    .Form h2{
+        text-align: center;
+        font-size: 16px;
+    }
+    .Form label{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:darkmagenta;   
+    }
+    .Form input{
+        width: 200px;
+       
+    }  
+    
+
+
 }
