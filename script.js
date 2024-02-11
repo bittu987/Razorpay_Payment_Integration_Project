@@ -9,7 +9,7 @@ const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
     let amountInPaise  = amountInRupee * 100;
     let nameofdonar = document.getElementById("Name").value;
     if(nameofdonar == "" || amountInRupee == ""){
-      alert("Both Fields are mendotary");
+      alert("Both are mandatory. Please enter your name and amount");
     }
     else{
     let options = {
