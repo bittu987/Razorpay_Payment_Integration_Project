@@ -3,11 +3,14 @@
 const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
 
   
-  btnToPay.onclick = function (e) {
+  btnToPay.onclick = function () {
     let amountInRupee = document.getElementById("Amount").value;
     let amountInPaise  = amountInRupee * 100;
     let nameofdonar = document.getElementById("Name").value;
-
+    if(nameofdonar == "" || amountInRupee == ""){
+      alert("Both Fields are mendotary");
+    }
+    else{
     let options = {
       "key": aPI_key, // Enter the Key ID generated from the Dashboard
       "amount": amountInPaise, // Amount in Paise
@@ -79,5 +82,8 @@ const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
 
     let rzp1 = new Razorpay(options);
     rzp1.open();
-    
+  }
+   nameofdonar = "";
+   amountInRupee = "";
+
   }

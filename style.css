@@ -104,7 +104,6 @@ header{
 }
 .footer{
     width: auto;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
