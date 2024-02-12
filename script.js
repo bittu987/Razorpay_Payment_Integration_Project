@@ -1,11 +1,10 @@
   const btnToPay = document.getElementById("btn");
 // const para =document.getElementById("para") 
-const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
-// const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
+// const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
+const aPI_key = "rzp_test_KDCmPZnKzRfJs4";
 
   
   btnToPay.onclick = function (e) {
-    e.preventDefault()
     let amountInRupee = document.getElementById("Amount").value;
     let amountInPaise  = amountInRupee * 100;
     let nameofdonar = document.getElementById("Name").value;
@@ -84,5 +83,9 @@ const aPI_key = "rzp_live_f1v5UXQv4lyT8j";
 
     let rzp1 = new Razorpay(options);
     rzp1.open();
+    
   }
+  e.preventDefault()
+  amountInRupee = "";
+  nameofdonar = "";
   }
