@@ -162,7 +162,7 @@ iframe{
     font-weight: bold;
     border: none;
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width:480px) {
    
     .logo img{
         width: 40px;
@@ -208,7 +208,7 @@ iframe{
         padding: 2px;
         height: 290px;
         width: 290px;
-        left: 21%;
+        left: 22%;
         bottom: 130px;
         gap: 15px;
     }
